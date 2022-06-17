@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <link rel="icon" type="image/png" href="./favicon.ico" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Send Private message</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!--link rel="stylesheet" type="text/css" href="css/app.css" /-->
+</head>
+
+<style type="text/css">
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: "Raleway";
+        background-color: #e6e6e6;
+    
+    }
+
+    .card {
+        width: 400px;
+        margin: 75px auto 0;
+        background-color: #fff;
+        box-shadow: 0 3px 30px rgba(0, 0, 0, .14);
+        color: #444;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .card .card-header {
+        position: relative;
+        height: 48px;
+    }
+
+    .card .card-header .profile-img {
+        width: 96px;
+        height: 96px;
+        border-radius: 1000px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 6px solid #fff;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    }
+
+    .card .card-body {
+        padding: 10px 40px;
+    }
+
+    .card .card-body .full-name {
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 10px 0 0;
+    }
+
+    .card .card-body .username {
+        font-size: 13px;
+        color: #777;
+        margin: 5px 0 0;
+    }
+
+    .card .card-body .city {
+        font-weight: 500;
+        margin: 10px 0 0;
+    }
+
+    .card .card-body .desc {
+        line-height: 24px;
+    }
+
+    .card .social-icon {
+        font-size: 18px;
+        margin: 0 7px;
+    }
+
+    .card .social-icon.facebook {
+        color: #3b5999;
+    }
+
+    .card .social-icon.twitter {
+        color: #55acee;
+    }
+
+    .card .social-icon.tumblr {
+        color: #34465d;
+    }
+
+    .card .social-icon.youtube {
+        color: #cd201f;
+    }
+
+    .card .social-icon.linkedin {
+        color: #0077b5;
+    }
+
+    .card .social-icon.google-plus {
+        color: #dd4b39;
+    }
+
+    .card .card-footer {
+        display: table;
+        width: 100%;
+        border-top: 1px solid #e6e6e6;
+    }
+
+    .card .card-footer .col {
+        display: table-cell;
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+    .card .card-footer .count {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .vr {
+        border-right: 1px solid #e6e6e6;
+    }
+
+    textarea {
+        display: block;
+        resize: none;
+        overflow: hidden;
+        width: 100%;
+        padding: 3px;
+    }
+
+    @media screen and (max-width: 575px) {
+        .card {
+            width: 96%;
+        }
+
+        .card .card-body {
+            padding: 10px 20px;
+        }
+
+        .card .card-footer .col {
+            padding: 0 10px;
+        }
+
+        .card .card-footer .count {
+            display: block;
+            margin-bottom: 5px;
+        }
+    }
+</style>
+
+
+<body>
+    <br>
+   
+    <div class="card">
+       
+
+        <!---
+        <div class="card-footer">
+            <div class="col vr">
+                <p><span class="count">14.8K</span> Followers</p>
+            </div>
+            <div class="col">
+                <p><span class="count">13.12K</span> Following</p>
+            </div>
+
+
+        </div>
+        --->
+
+       
+        <div class="container">
+
+            <div>
+                <br>
+                <h3 class="text-center">Send me your message!</h3>
+            </div>
+
+
+            <form method="post" autocomplete="off" name="receive">
+
+                <!---- all user 
+
+
+                <div class="form-group">
+                    <label for="user">Enter name</label>
+    
+
+                    <input type="hidden" name="user" value="Cedrick Villarin">
+                    <input type="hidden" name="user" value="Juan">
+                    <input type="hidden" name="user" value="Juneane">
+                </div>
+
+                here -->
+
+
+
+                <div class="form-group">
+
+                    <label for="name">Enter name</label>
+
+                    <input type="text" class="form-control" placeholder="Enter Name Ex: Juan Dela Cruz" name="name"
+                        required>
+
+
+                    <label for="number">Enter Your Contact</label>
+
+
+                    <input type="text" class="form-control" placeholder="09169888270 or Email" name="contact" required>
+
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="message"> Message</label>
+
+                    <textarea class="form-text text-muted" id="message" type="text" name="message" rows="3" cols="0"
+                        placeholder="Enter Your Message" required></textarea>
+
+
+                </div>
+
+                <div class="form-group">
+
+
+
+                    <hr>
+                    <small style="padding-bottom:10px;" class="form-text text-muted">We'll never share your cantact
+                        information
+                        with
+                        anyone else</small>
+
+                    <button type="submit" name="submit" value="Send message" class="btn btn-primary">Submit</button>
+            </form>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxt1nKPL4Gl9aRG9tW7EKiIxWtmrlx5yGyTDg5E0k52v7nxUbwYxJU3vb1eVe9BTdp5ow/exec'
+            const form = document.forms['receive']
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+
+
+
+
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+        <script type="text/javascript" charset="utf-8">
+            function randNumber(len, an) {
+                an = an && an.toLowerCase();
+                var str = "", i = 0, min = an == "a" ? 10 : 0, max = an == "n" ? 10 : 62;
+                for (; i++ < len;) {
+                    var r = Math.random() * (max - min) + min << 0;
+                    str += String.fromCharCode(r += r > 9 ? r < 36 ? 55 : 61 : 48);
+                }
+                return str;
+            }
+            document.getElementById("foo").value = randNumber(10, 'A');
+
+        </script>
+
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
