@@ -1,15 +1,12 @@
+
 <!DOCTYPE html>
 <html>
 
 <head>
-    
-    
     <link rel="icon" type="image/png" href="./favicon.ico" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,10 +16,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!--link rel="stylesheet" type="text/css" href="css/app.css" /-->
 </head>
 
@@ -166,11 +163,11 @@
     }
 </style>
 
-
 <body>
     <div class="card">
         <div class="card-header">
-            <img src="https://i.ibb.co/PWy2z40/272443208-5224692117554476-6675953994024957967-n.jpg" alt="Profile Image" class="profile-img">
+            <img src="https://i.ibb.co/PWy2z40/272443208-5224692117554476-6675953994024957967-n.jpg" alt="Profile Image"
+                class="profile-img">
         </div>
         <div class="card-body">
             <p class="full-name">Cedrick Deleon Villarin</p>
@@ -178,19 +175,54 @@
             <p class="city">3019 Philippines</p>
             <p class="desc">Front-end-Developer, Freelancer, Workaholics</p>
             <p>
-                <a href="http://m.facebook.com/erolled" class="social-icon facebook"><i
+                <a href="http://m.facebook.com/cedrickvillarin1994" class="social-icon facebook"><i
                         class="fab fa-facebook-f"></i></a>
                 <a href="http://m.twitter.com/@Erolled" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
-                <a href="http://m.villarincedrick.tumbler.com" class="social-icon tumblr"><i
-                        class="fab fa-tumblr"></i></a>
-                <a href="http://m.youtube.com/#erolled" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
-                <a href="http://m.linkedin.com/erolled" class="social-icon linkedin"><i class="fab fa-linkedin"></i></a>
-                <a href="http://m.me/erolled" class="social-icon google-plus"><i class="fab fa-google-plus"></i></a>
+                <a href="#" class="social-icon tumblr"><i class="fab fa-tumblr"></i></a>
+                <a href="https://www.youtube.com/channel/UCD59FK1aNZ6zDo1KdjXd6sw" class="social-icon youtube"><i
+                        class="fab fa-youtube"></i></a>
+                <a href="#" class="social-icon linkedin"><i class="fab fa-linkedin"></i></a>
+                <a href="http://m.me/erolled" class="social-icon google-plus"><i
+                        class="fab fa-facebook-messenger"></i></a>
             </p>
-
-         
-
         </div>
+
+
+        <centre>
+            <figure style="margin: 0;">
+
+                
+                <figcaption class="form-text text-muted">🎶 " Sun and Moon " 🎶 </figcaption>
+                <audio style="height: 30px;"
+
+                     height="50" loop="true" autoplay="autoplay" controls="controls">
+                        <source src="https://github.com/ErolledDev/testchat/blob/bf59bca0d4cc2c69da191c7f7bb2cf06cb3e72e9/Anees%20-%20Sun%20and%20Moon%20(Lyrics).mp3?raw=true" type="audio/mp3">
+                        Your browser does not support the audio element.
+
+                </audio>
+
+
+                <!-- audio credits-->
+                <!--
+            
+            link: https://www.youtube.com/watch?v=XnJxjvNqLX8 
+            CREDITS:
+Director: Issa Kaddissi
+Produced by: Anees, Zach Matari, Saleem Mokhiber, Issa Kaddissi
+Production Manager: Zach Matari
+Editor: Issa Kaddissi
+Written by: Anees, Zach Matari, Issa Kaddissi, Nina Nelson
+Creative Producer: Nina Nelson
+Creative Producer: DeShawn Cavanaugh
+Special thanks to: Anwar Jibawi, Ramsey Harb, Michelle Packman, Nicky Costabile and PapeTheGreat--->
+
+                <!-- audio credits-->
+
+            </figure>
+        </centre>
+
+
+
 
         <!---
         <div class="card-footer">
@@ -200,117 +232,67 @@
             <div class="col">
                 <p><span class="count">13.12K</span> Following</p>
             </div>
-
-
         </div>
         --->
-
         <hr>
         <div class="container">
-
             <div>
                 <h3 class="text-center">Send me your message!</h3>
             </div>
-
-
-            <form method="post" autocomplete="off" name="receive">
+            <form method="post" autocomplete="off" name="receive" id="btnSubmit">
 
                 <div class="form-group">
                     <label for="name">Enter name</label>
-
                     <input type="text" class="form-control" placeholder="Enter Name Ex: Juan Dela Cruz" name="name"
                         required>
-
-
                     <label for="number">Enter Your Contact</label>
-
-
                     <input type="text" class="form-control" placeholder="09169888270 or Email" name="contact" required>
-                </div>
-
-                <div class="form-group">
-
                     <label for="message"> Message</label>
-
-                    <textarea class="form-text text-muted" id="message" type="text" name="message" rows="3" cols="0"
-                        placeholder="Enter Your Message" required></textarea>
-
-
-                </div>
-
-                <div class="form-group">
-
-
-
+                    <textarea class="form-text text-muted form-control" id="message" type="text" name="message" rows="3"
+                        cols="0" placeholder="Enter Your Message" required></textarea>
                     <hr>
-                    <small style="padding-bottom:10px;" class="form-text text-muted">We'll never share your cantact information
+
+                    <small style="padding-bottom:10px;" class="form-text text-muted">We'll never share your cantact
+                        information
                         with
                         anyone else</small>
-
-                    <button type="submit" name="submit" value="Send message" class="btn btn-primary">Submit</button>
-            </form>
-
-
-
-
-
-
+                    <button type="submit" name="submit" value="Send message" class="btn btn-primary"
+                        id="btnTest">Submit</button>
+                </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
         <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbx9pF4kMOybEv-13FwToYgAFn_L-AoXUsfV89M6nTUMnFqsp32DKy5BEkvFMMoE6PpEiQ/exec'
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwQojyq6x7LuJc8vyzMtqnk3ZUt2KBDmnEgUn7ybUSey3kVE_N0n59tkRzixA6JcAMgew/exec'
             const form = document.forms['receive']
 
             form.addEventListener('submit', e => {
                 e.preventDefault()
                 fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                    .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
-
-
-
-
+                    .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon.\n\nReload page to send new message again"))
                     .catch(error => console.error('Error!', error.message))
+                form.reset();
             })
         </script>
-
-
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-
-
-        <script type="text/javascript" charset="utf-8">
-            function randNumber(len, an) {
-                an = an && an.toLowerCase();
-                var str = "", i = 0, min = an == "a" ? 10 : 0, max = an == "n" ? 10 : 62;
-                for (; i++ < len;) {
-                    var r = Math.random() * (max - min) + min << 0;
-                    str += String.fromCharCode(r += r > 9 ? r < 36 ? 55 : 61 : 48);
-                }
-                return str;
-            }
-            document.getElementById("foo").value = randNumber(10, 'A');
-
+        <script>
+            $(document).ready(function () {
+                $("#btnSubmit").submit(function (e) {
+                    //stop submitting the form to see the disabled button effect
+                    e.preventDefault();
+                    //disable the submit button
+                    $("#btnSubmit").attr("disabled", true);
+                    //disable a normal button
+                    $("#btnTest").attr("disabled", true);
+                    return true;
+                });
+            });
         </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <footer >
+            <small style="padding-bottom:10px;" class="form-text text-muted">Create your own Private message <a
+                    href="#">Sign up</a></small>
 
 
-
-
+        </footer>
     </div>
-
-
 
 </body>
 
